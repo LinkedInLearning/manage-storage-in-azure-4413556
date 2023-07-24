@@ -1,0 +1,253 @@
+{
+  "name": "Microsoft.Storage.BlobChangeEvent",
+  "type": "record",
+  "fields": [
+    {
+      "name": "schemaVersion",
+      "type": "long",
+      "default": 4
+    },
+    {
+      "name": "topic",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "subject",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "eventType",
+      "type": {
+        "name": "Microsoft.Storage.EventTypeEnum",
+        "type": "enum",
+        "symbols": [
+          "UnspecifiedEventType",
+          "BlobCreated",
+          "BlobDeleted",
+          "BlobPropertiesUpdated",
+          "BlobSnapshotCreated",
+          "Control",
+          "BlobTierChanged",
+          "BlobAsyncOperationInitiated",
+          "RestorePointMarkerCreated"
+        ]
+      }
+    },
+    {
+      "name": "eventTime",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "id",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "data",
+      "type": {
+        "name": "Microsoft.Storage.BlobChangeEventData",
+        "type": "record",
+        "fields": [
+          {
+            "name": "api",
+            "type": {
+              "name": "Microsoft.Storage.ApiEnum",
+              "type": "enum",
+              "symbols": [
+                "UnspecifiedApi",
+                "PutBlob",
+                "PutBlockList",
+                "CopyBlob",
+                "DeleteBlob",
+                "SetBlobMetadata",
+                "ControlEvent",
+                "UndeleteBlob",
+                "SetBlobProperties",
+                "SnapshotBlob",
+                "SetBlobTier",
+                "AbortCopyBlob",
+                "SetBlobTags",
+                "CreateRestorePointMarker"
+              ]
+            },
+            "default": "UnspecifiedApi"
+          },
+          {
+            "name": "clientRequestId",
+            "type": "string",
+            "default": ""
+          },
+          {
+            "name": "requestId",
+            "type": "string",
+            "default": ""
+          },
+          {
+            "name": "etag",
+            "type": "string",
+            "default": ""
+          },
+          {
+            "name": "contentType",
+            "type": "string",
+            "default": ""
+          },
+          {
+            "name": "contentLength",
+            "type": "long",
+            "default": 0
+          },
+          {
+            "name": "blobType",
+            "type": {
+              "name": "Microsoft.Storage.BlobTypeEnum",
+              "type": "enum",
+              "symbols": [
+                "UnspecifiedBlobType",
+                "BlockBlob",
+                "PageBlob",
+                "AppendBlob"
+              ]
+            },
+            "default": "UnspecifiedBlobType"
+          },
+          {
+            "name": "blobVersion",
+            "type": [
+              "null",
+              "string"
+            ],
+            "default": null
+          },
+          {
+            "name": "containerVersion",
+            "type": [
+              "null",
+              "string"
+            ],
+            "default": null
+          },
+          {
+            "name": "blobTier",
+            "type": [
+              "null",
+              {
+                "name": "Microsoft.Storage.BlobTierEnum",
+                "type": "enum",
+                "symbols": [
+                  "UnspecifiedBlobTier",
+                  "Hot",
+                  "Cool",
+                  "Archive"
+                ]
+              }
+            ],
+            "default": null
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "default": ""
+          },
+          {
+            "name": "sequencer",
+            "type": "string",
+            "default": ""
+          },
+          {
+            "name": "previousInfo",
+            "type": [
+              "null",
+              {
+                "type": "map",
+                "values": "string"
+              }
+            ],
+            "default": null
+          },
+          {
+            "name": "snapshot",
+            "type": [
+              "null",
+              "string"
+            ],
+            "default": null
+          },
+          {
+            "name": "blobPropertiesUpdated",
+            "type": [
+              "null",
+              {
+                "type": "map",
+                "values": {
+                  "name": "Microsoft.Storage.values",
+                  "type": "record",
+                  "fields": [
+                    {
+                      "name": "current",
+                      "type": "string",
+                      "default": ""
+                    },
+                    {
+                      "name": "previous",
+                      "type": "string",
+                      "default": ""
+                    }
+                  ]
+                }
+              }
+            ],
+            "default": null
+          },
+          {
+            "name": "asyncOperationInfo",
+            "type": [
+              "null",
+              {
+                "type": "map",
+                "values": "string"
+              }
+            ],
+            "default": null
+          },
+          {
+            "name": "blobTagsUpdated",
+            "type": [
+              "null",
+              {
+                "type": "map",
+                "values": {
+                  "type": "map",
+                  "values": "string"
+                }
+              }
+            ],
+            "default": null
+          },
+          {
+            "name": "restorePointMarker",
+            "type": [
+              "null",
+              {
+                "type": "map",
+                "values": "string"
+              }
+            ],
+            "default": null
+          },
+          {
+            "name": "storageDiagnostics",
+            "type": {
+              "type": "map",
+              "values": "string"
+            },
+            "default": {}
+          }
+        ]
+      }
+    }
+  ]
+}
