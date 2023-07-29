@@ -9,7 +9,7 @@ cd chapter-2
 
 az group create --resource-group rg-02-02 --location <location>
 
-az deployment group create --resource-group rg-02-02 --template-file 02_02/main.bicep --parameters resourceSuffix=0202 location=<location>
+az deployment group create --resource-group rg-02-02 --template-file 02_02/standard-storage.bicep --parameters resourceSuffix=0202 location=<location>
 
 etc...
 ```
