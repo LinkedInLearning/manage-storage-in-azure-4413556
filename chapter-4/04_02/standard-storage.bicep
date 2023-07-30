@@ -29,7 +29,7 @@ resource storage 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   }
   properties: {
     allowBlobPublicAccess: false
-    allowSharedKeyAccess: false
+    allowSharedKeyAccess: true
   }
   kind: 'StorageV2'
 }
