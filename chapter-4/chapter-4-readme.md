@@ -149,6 +149,8 @@ These commands create a general purpose V2 storage account with access key usage
 
 3. Install windows terminal and python to VM
 
+    Run powershell as an administrator
+
     ```pwsh
     # Download and install widows terminal
     Invoke-WebRequest -Uri https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx -outfile Microsoft.VCLibs.x86.14.00.Desktop.appx
@@ -160,7 +162,7 @@ These commands create a general purpose V2 storage account with access key usage
     Add-AppxPackage Microsoft.WindowsTerminal_Win10_1.16.10261.0_8wekyb3d8bbwe.msixbundle
 
     # Download and install python
-    Add-AppxPackage Microsoft.WindowsTerminal_Win10_1.16.10261.0_8wekyb3d8bbwe.msixbundle
+    Invoke-WebRequest -Uri "https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe" -OutFile "python-3.10.2-amd64.exe"
 
     .\python-3.10.2-amd64.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
     
@@ -192,7 +194,7 @@ These commands create a general purpose V2 storage account with access key usage
 
     Edit chapter-4/04_05/list_blobs_identity.py and list_blobs_default_cred.py and update the storage account name
 
-6. Run managed identity python script
+7. Run managed identity python script
 
     ```pwsh
 
