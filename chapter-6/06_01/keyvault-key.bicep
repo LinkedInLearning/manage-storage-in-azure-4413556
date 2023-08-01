@@ -54,7 +54,7 @@ resource vault 'Microsoft.KeyVault/vaults@2023-02-01' = {
     accessPolicies:[]
     enableRbacAuthorization: true
     enableSoftDelete: false
-    enablePurgeProtection: false
+    enablePurgeProtection: null
     enabledForDeployment: false
     enabledForDiskEncryption: false
     enabledForTemplateDeployment: false
