@@ -45,7 +45,7 @@ These commands create a general purpose V2 storage account with blob public acce
 2. Create a storage account with two ccontainers to use for filtering
 
     ```bash
-    az deployment group create --resource-group rg-07-03 --template-file 07_03/standard-storage.bicep --parameters resourceSuffix=0703location=<location>
+    az deployment group create --resource-group rg-07-03 --template-file 07_03/standard-storage.bicep --parameters resourceSuffix=0703 location=<location>
     ```
 
 ## Chapter 07_04 - Monitoring storage
