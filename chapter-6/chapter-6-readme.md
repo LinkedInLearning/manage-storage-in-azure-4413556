@@ -14,7 +14,7 @@ az deployment group create --resource-group rg-06-01 --template-file 06_01/main.
 etc...
 ```
 
-## Chapter 06_01 - Encryption at rest and in transit
+## Chapter 06_01 - Encryption at rest, encryption scopes and encryption in transit in practice
 
 These commands create a general purpose V2 storage account with blob public access disabled.
 
@@ -32,7 +32,7 @@ These commands create a general purpose V2 storage account with blob public acce
     ```
 
 
-## Chapter 06_02 - Blob, Container and File soft delete and Blob versioning
+## Chapter 06_02 - Soft delete and versioning for blobs, containers and file shares
 
 These commands create a general purpose V2 storage account with blob public access disabled and soft delete and versioning disabled.
 
@@ -51,7 +51,7 @@ These commands create a general purpose V2 storage account with blob public acce
 
 
 
-## Chapter 06_03 - Blob change feed and point in time restore
+## Chapter 06_03 - Point in time restore for blob data
 
 These commands create a general purpose V2 storage account with change feed enabled.
 

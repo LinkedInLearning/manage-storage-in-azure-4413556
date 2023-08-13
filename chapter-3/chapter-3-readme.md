@@ -14,7 +14,7 @@ az deployment group create --resource-group rg-03-01 --template-file 03_01/main.
 etc...
 ```
 
-## Chapter 03_01 - Storage Endpoints and Storage Firewall
+## Chapter 03_01 - Storage account firewalls and virtual network access
 
 These commands create a general purpose V2 storage account with two blob containers and a couple of blobs in each container
 
@@ -35,7 +35,7 @@ And a vnet which contains one virtual machine with a public and private IP addre
 
     You will be promoted for an admin password, note it down to access the VM!
 
-## Chapter 03_02 - Storage account private endpoints
+## Chapter 03_02 - Private endpoints for Azure Storage
 
 These commands create a general purpose V2 storage account with two blob containers and a couple of blobs in each container
 
@@ -57,7 +57,7 @@ And a vnet which contains one virtual machine with a public and private IP addre
     You will be promoted for an admin password, note it down to access the VM!
 
 
-    ## Chapter 03_03 - Using Azure Powershell
+    ## Chapter 03_03 - Create and manage a storage Account with Azure PowerShell and Executing Azure PowerShell in scripts with the Cloud Shell code editor
 
     There is no setup for this video, the commands are walked through on screen
 
@@ -95,7 +95,7 @@ And a vnet which contains one virtual machine with a public and private IP addre
         ./03_03/create-storage-splatting.ps1 -StorageAccountSuffix "0303" -ResourceGroup "rg-03-03" -Location "westeurope"
         ```
 
-    ## Chapter 03_04 - Using Azure CLI
+    ## Chapter 03_04 - Create and manage a Storage Account with the Azure CLI
 
     There is no setup for this video, the commands are walked through on screen
 
@@ -113,7 +113,7 @@ And a vnet which contains one virtual machine with a public and private IP addre
     chmod +x ./03_04/create-storage.sh
     ```
 
-    ## Chapter 03_05 - Using Bicep for deployment of storage account
+    ## Chapter 03_05 - Deploy infrastructure for Azure Storage using Azure Bicep Demo
 
     There is no setup for this video, the files are explained on screen and then deployed using
     

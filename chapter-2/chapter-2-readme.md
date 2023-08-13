@@ -14,7 +14,7 @@ az deployment group create --resource-group rg-02-02 --template-file 02_02/stand
 etc...
 ```
 
-## Chapter 02_02 - Setting up backup
+## Chapter 02_02 - Backing up Azure File Shares and Blobs Demo
 
 These commands create a general purpose V2 storage account with file share, two blob containers and a couple of blobs in each container
 
@@ -32,7 +32,7 @@ These commands create a general purpose V2 storage account with file share, two 
 
 Once the resources are deployed, copy in the two files from the files folder in 02_03/data/files, across to the fileshare, you can then follow the demo.
 
-## Chapter 02_03 - DR and failover
+## Chapter 02_03 - Disaster recovery and failover
 
 These commands create a general purpose V2 storage account in RAGRS redundancy, two blob containers and a couple of blobs in each container
 
@@ -48,7 +48,7 @@ These commands create a general purpose V2 storage account in RAGRS redundancy, 
     az deployment group create --resource-group rg-02-03 --template-file 02_03/standard-storage-ragrs.bicep --parameters resourceSuffix=0203 location=<location>
     ```
 
-## Chapter 02_04 - Object replication for Blobs
+## Chapter 02_04 - Object replication for blob data
 
 These commands create three standard general purpose v2 accounts with local redundancy. Change feed and blob versioning are enabeld on the source account, and just blob versioning on the target account.
 

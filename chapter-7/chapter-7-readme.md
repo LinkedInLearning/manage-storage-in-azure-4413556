@@ -14,7 +14,7 @@ az deployment group create --resource-group rg-07-01 --template-file 07_01/main.
 etc...
 ```
 
-## Chapter 07_02 - Access tiers for blobs and storage tiers for files
+## Chapter 07_02 - Manage storage tiers for blobs and files
 
 These commands create a general purpose V2 storage account with blob public access enabled.
 
@@ -31,7 +31,7 @@ These commands create a general purpose V2 storage account with blob public acce
     az deployment group create --resource-group rg-07-02 --template-file 07_02/standard-storage.bicep --parameters resourceSuffix=0702 location=<location>
     ```
 
-## Chapter 07_03 - Lifecycle management policies
+## Chapter 07_03 - Lifecycle management policies and rules
 
 These commands create a general purpose V2 storage account with blob public access enabled.
 
@@ -48,7 +48,7 @@ These commands create a general purpose V2 storage account with blob public acce
     az deployment group create --resource-group rg-07-03 --template-file 07_03/standard-storage.bicep --parameters resourceSuffix=0703 location=<location>
     ```
 
-## Chapter 07_04 - Monitoring storage
+## Chapter 07_04 - Monitoring Azure Storage & Monitoring Azure Storage with Storage Insights and Workbooks
 
 These commands create a general purpose V2 storage account with blob public access enabled and an Azure Function to add the python triggers to
 

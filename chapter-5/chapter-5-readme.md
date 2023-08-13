@@ -14,7 +14,7 @@ az deployment group create --resource-group rg-05-01 --template-file 05_01/main.
 etc...
 ```
 
-## Chapter 05_01 - Deploying Azure File Sync
+## Chapter 05_01 - Setting up Azure File Sync
 
 These commands create the Virtual Machine, Networking and Storage with a single file share named fileSync. 
 
@@ -33,7 +33,7 @@ These commands create the Virtual Machine, Networking and Storage with a single 
 
     You will be prompted to enter an admin password for the virtual machine, don't forget to note it down! The username is admin0501
 
-## Chapter 05_02 Mounting an SMB File Share in Windows
+## Chapter 05_02 Mounting a file share to Windows Server
 
 These commands create the Virtual Machine, Networking and Storage with a single file share named filesmount. 
 
@@ -52,7 +52,7 @@ These commands create the Virtual Machine, Networking and Storage with a single 
 
     You will be prompted to enter an admin password for the virtual machine, don't forget to note it down! The username is admin0502
 
-## Chapter 05_03 Mounting an NFS File Share in Linux
+## Chapter 05_03 Mounting a file share to Linux
 
 These commands creates a Windows and Ubuntu VM, Networking and Storage with a single file share named nfsmount. 
 

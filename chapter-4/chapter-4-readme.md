@@ -32,7 +32,7 @@ These commands create a general purpose V2 storage account with blob public acce
     ```
 
 
-## Chapter 04_02 - Authorising with a shared key
+## Chapter 04_02 - Authorise with shared Keys
 
 These commands create a general purpose V2 storage account with blob public access disabled.
 
@@ -69,7 +69,7 @@ edit the file to update the account_url and shared_access_key
     ```
 
 
-## Chapter 04_03 - Authorising with Azure RBAC
+## Chapter 04_03 - Authorising operations with Azure AD and Azure RBAC
 
 These commands create a general purpose V2 storage account with access key usage disabled and uploads some blobs to a container.
 
@@ -108,7 +108,7 @@ edit the file to update the account_url and shared_access_key
     ```
 
 
-## Chapter 04_04 - Authorising with Azure ABAC
+## Chapter 04_04 - Authorising operations with Azure AD and Azure ABAC Storage
 
 These commands create a general purpose V2 storage account with access key usage disabled and uploads some blobs to a container with two different virtual directories.
 
@@ -128,7 +128,7 @@ These commands create a general purpose V2 storage account with access key usage
     ```
 
 
-## Chapter 04_05 - Managed identity and Passwordless
+## Chapter 04_05 - Accessing storage account data from other Azure Services & Enable passwordless Azure AD based access to Azure Storage
 
 These commands create a general purpose V2 storage account with access key usage disabled and public access disabled. It creates a VNet and VM and a private link.
 
@@ -212,7 +212,7 @@ These commands create a general purpose V2 storage account with access key usage
     ```
 
 
-## Chapter 04_06 - Shared Access Signatures
+## Chapter 04_06 - Shared Access Signatures and Access delegation
 
 These commands create a general purpose V2 storage account with access key usage disabled and public access disabled.
 
