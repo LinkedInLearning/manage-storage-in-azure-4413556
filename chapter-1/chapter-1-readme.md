@@ -5,7 +5,7 @@ These files are used in the demos for chapter 1.
 All environments are built in demos in the Azure portal. These files are used for uploads into storage.
 
 
-## 01_04 - Working with Azure Storage data in the Portal
+## [01_04 - Working with Azure Storage data in the Portal](#1.04) 
 
 These are the files shown in the video "Working with Azure Storage data in the Portal"
 
