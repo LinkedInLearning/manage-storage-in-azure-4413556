@@ -23,44 +23,44 @@ Each top level folder corresponds to a chapter, then a folder underneath to a vi
 | Chapter 2       |                                                                                                         |
 |  -              | High availability and durability for Azure Storage                                                      |
 |  -              | Backing up Azure File Shares and Operational Backup for Blobs                                           |
-| 02_02           | Backing up Azure File Shares and Blobs Demo                                                             |
-| 02_03           | Disaster recovery and failover                                                                          |
-| 02_04           | Object replication for blob data                                                                        |
+| 02_02           | [Backing up Azure File Shares and Blobs Demo](chapter-2/chapter-2-readme.md)                                                              |
+| 02_03           | [Disaster recovery and failover](chapter-2/chapter-2-readme.md)                                                                          |
+| 02_04           | [Object replication for blob data](chapter-2/chapter-2-readme.md)                                                                        |
 | Chapter 3       |                                                                                                         |
-| 03_01           | Storage account firewalls and virtual network access                                                    |
-| 03_02           | Private endpoints for Azure Storage                                                                     |
-| 03_03           | Create and manage a storage Account with Azure PowerShell                                               |
-| 03_03           | Executing Azure PowerShell in scripts with the Cloud Shell code editor                                  |
-| 03_04           | Create and manage a Storage Account with the Azure CLI                                                  |
+| 03_01           | [Storage account firewalls and virtual network access](chapter-3/chapter-3-readme.md)                                                    |
+| 03_02           | [Private endpoints for Azure Storage](chapter-3/chapter-3-readme.md)                                                                     |
+| 03_03           | [Create and manage a storage Account with Azure PowerShell](chapter-3/chapter-3-readme.md)                                               |
+| 03_03           | [Executing Azure PowerShell in scripts with the Cloud Shell code editor](chapter-3/chapter-3-readme.md)                                  |
+| 03_04           | [Create and manage a Storage Account with the Azure CLI](chapter-3/chapter-3-readme.md)                                                  |
 |  -              | Deploy infrastructure for Azure Storage using Azure Bicep                                               |
-| 03_05           | Deploy infrastructure for Azure Storage using Azure Bicep Demo                                          |
+| 03_05           | [Deploy infrastructure for Azure Storage using Azure Bicep Demo](chapter-3/chapter-3-readme.md)                                          |
 | Chapter 4       |                                                                                                         |
-| 04_01           | The control plane and the data plane                                                                    |
-| 04_02           | Authorize with shared Keys                                                                              |
-| 04_03           | Authorize operations with Azure AD and Azure RBAC                                                       |
-| 04_04           | Authorize operations with Azure AD and Azure ABAC Storage                                               |
-| 04_05           | Accessing storage account data from other Azure Services                                                |
-| 04_05           | Enable passwordless Azure AD based access to Azure Storage                                              |
-| 04_06           | Shared Access Signatures and Access delegation                                                          |
+| 04_01           | [The control plane and the data plane](chapter-4/chapter-4-readme.md)                                                                    |
+| 04_02           | [Authorize with shared Keys](chapter-4/chapter-4-readme.md)                                                                               |
+| 04_03           | [Authorize operations with Azure AD and Azure RBAC](chapter-4/chapter-4-readme.md)                                                        |
+| 04_04           | [Authorize operations with Azure AD and Azure ABAC Storage](chapter-4/chapter-4-readme.md)                                                |
+| 04_05           | [Accessing storage account data from other Azure Services](chapter-4/chapter-4-readme.md)                                                 |
+| 04_05           | [Enable passwordless Azure AD based access to Azure Storage](chapter-4/chapter-4-readme.md)                                               |
+| 04_06           | [Shared Access Signatures and Access delegation](chapter-4/chapter-4-readme.md)                                                           |
 | Chapter 5       |                                                                                                         |
-| 05_01           | Setting up Azure File Sync                                                                              |
-| 05_02           | Mounting a file share to Windows Server                                                                 |
-| 05_03           | Mounting a file share to Linux                                                                          |
+| 05_01           | [Setting up Azure File Sync](chapter-5/chapter-5-readme.md)                                                                               |
+| 05_02           | [Mounting a file share to Windows Server](chapter-5/chapter-5-readme.md)                                                                 |
+| 05_03           | [Mounting a file share to Linux](chapter-5/chapter-5-readme.md)                                                                          |
 | Chapter 6       |                                                                                                         |
-| 06_01           | Encryption at rest and in transit                                                                       |
-| 06_01           | Encryption at rest, encryption scopes and encryption in transit in practice                             |
-| 06_02           | Soft delete and versioning for blobs, containers and file shares                                        |
+| 06_01           | [Encryption at rest and in transit](chapter-6/chapter-6-readme.md)                                                                       |
+| 06_01           | [Encryption at rest, encryption scopes and encryption in transit in practice](chapter-6/chapter-6-readme.md)                             |
+| 06_02           | [Soft delete and versioning for blobs, containers and file shares](chapter-6/chapter-6-readme.md)                                        |
 |  -              | Change feed for blob data                                                                               |
-| 06_03           | Point in time restore for blob data                                                                     |
-| 06_04           | Immutable storage for business-critical blob data                                                       |
+| 06_03           | [Point in time restore for blob data](chapter-6/chapter-6-readme.md)                                                                     |
+| 06_04           | [Immutable storage for business-critical blob data](chapter-6/chapter-6-readme.md)                                                       |
 | Chapter 7       |                                                                                                         |
-|                 | Billing, Reserved Capacity and network routing preference for Azure Storage                             |
+|                 | [Billing, Reserved Capacity and network routing preference for Azure Storage](chapter-7/chapter-7-readme.md)                             |
 |  -              | Storage tiers and blob rehydration                                                                      |
-| 07_02           | Manage storage tiers for blobs and files                                                                |
-| 07_03           | Lifecycle management policies and rules                                                                 |
-| 07_04           | Monitoring Azure Storage                                                                                |
-| 07_04           | Monitoring Azure Storage with Storage Insights and Workbooks                                            |
-| further_reading | Learning more about Azure management                                                                    |
+| 07_02           | [Manage storage tiers for blobs and files](chapter-7/chapter-7-readme.md)                                                                |
+| 07_03           | [Lifecycle management policies and rules](chapter-7/chapter-7-readme.md)                                                                 |
+| 07_04           | [Monitoring Azure Storage](chapter-7/chapter-7-readme.md)                                                                                |
+| 07_04           | [Monitoring Azure Storage with Storage Insights and Workbooks](chapter-7/chapter-7-readme.md)                                            |
+| further_reading | [Learning more about Azure Storage Management](further-reading)                                                                   |
 
 
 Within each folder is a chapter-X-readme.md file, this contains the commands to be run in the cloudshell to create each environment. The environments allow you to follow along with the videos.
