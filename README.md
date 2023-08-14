@@ -13,13 +13,13 @@ Each top level folder corresponds to a chapter, then a folder underneath to a vi
 |  -              | Azure Storage and the storage services                                                                  |
 |  -              | Azure Storage Types and Performance Tiers                                                               |
 |  -              | Creating a Storage Account in the Azure Portal                                                          |
-| 01_04           | Working with Azure Storage data in the Portal                                                           |
-| 01_04           | An overview of Azure Table Storage and Azure Storage Queues                                             |
-| 01_04           | Working with Azure Storage data in Azure Storage Explorer: Adding Tables, entities, queues and messages |
-| 01_06           | Migrating and transferring data into Azure Storage                                                      |
-| 01_06           | Migrating and transferring data into Azure Storage using AzCopy                                         |
-| 01_06           | Hierarchical namespace and SFTP for Blobs                                                               |
-| 01_06           | Hierarchical namespace and SFTP for Blobs in practice                                                   |
+| 01_04           | [Working with Azure Storage data in the Portal](chapter-1/chapter-1-readme.md)                                                           |
+| 01_04           | [An overview of Azure Table Storage and Azure Storage Queues](chapter-1/chapter-1-readme.md)                                               |
+| 01_04           | [Working with Azure Storage data in Azure Storage Explorer: Adding Tables, entities, queues and messages](chapter-1/chapter-1-readme.md)   |
+| 01_06           | [Migrating and transferring data into Azure Storage](chapter-1/chapter-1-readme.md)                                                        |
+| 01_06           | [Migrating and transferring data into Azure Storage using AzCopy](chapter-1/chapter-1-readme.md)                                           |
+| 01_06           | [Hierarchical namespace and SFTP for Blobs](chapter-1/chapter-1-readme.md)                                                                 |
+| 01_06           | [Hierarchical namespace and SFTP for Blobs in practice](chapter-1/chapter-1-readme.md)                                                     |
 | Chapter 2       |                                                                                                         |
 |  -              | High availability and durability for Azure Storage                                                      |
 |  -              | Backing up Azure File Shares and Operational Backup for Blobs                                           |
