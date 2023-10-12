@@ -1,7 +1,9 @@
 # Manage Storage in Azure
-This is the repository for the LinkedIn Learning course `Manage Storage in Azure`. The full course is available from [LinkedIn Learning][lil-course-url]. 
+This is the repository for the LinkedIn Learning course Manage Storage in Azure. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
+![Manage Storage in Azure][lil-thumbnail-url] 
+
+A strong understanding of cloud storage is vital not only for successfully managing data, but also for optimizing cloud spend. In this course, instructor Nicole Stevens covers important aspects of storage in Azure, including code-related deployments, deploying environments with storage accounts via code and Azure Bicep, along with how to authorize access through SDKs for developers. This demo-focused course provides instruction for managing Azure storage with PowerShell and the Azure CLI as well as in the Azure portal.
 
 ## Instructions
 This repository does not have any branches. Clone the entire repository and you get the demo environments and other setups to look at, all in their final state.
@@ -93,11 +95,32 @@ There are also further tools shown in the demos, to use these tools you can inst
 
 4. [Azure Storage Explorer](https://azure.microsoft.com/en-gb/products/storage/storage-explorer)
 
-5. [WinSCP](https://winscp.net/eng/index.php) for windows
+5. [WinSCP](https://winscp.net/eng/index.php) for Windows
 
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+
+
+
+
+
+
+
+
+### Instructor
+
+Nicole Stevens 
+                            
+                           
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/nicole-stevens).
+
+[lil-course-url]: https://www.linkedin.com/learning/manage-storage-in-azure?dApp=59033956&leis=LAA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGz9LokEdqyeg/learning-public-crop_288_512/0/1696813122151?e=2147483647&v=beta&t=CFHK8ZrCbolzmgew6Q6i2ZhgS1TxcKsJR9MnjfNtYrY
+
+
+
+
+
+
+
 
