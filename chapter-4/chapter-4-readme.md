@@ -55,7 +55,7 @@ These commands create a general purpose V2 storage account with blob public acce
 3. Install azure-storage-blob to cloudshell
 
     ```pwsh
-    pip install azure-blob-storage
+    pip install azure-storage-blob
     ```
 
 4. Run the account_key python file
@@ -93,7 +93,7 @@ These commands create a general purpose V2 storage account with access key usage
 4. Install azure-storage-blob to cloudshell
 
     ```bash
-    pip install azure-blob-storage
+    pip install azure-storage-blob
     pip install azure-identity
     ```
 
