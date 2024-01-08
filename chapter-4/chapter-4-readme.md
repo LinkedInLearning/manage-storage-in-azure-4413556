@@ -48,7 +48,7 @@ These commands create a general purpose V2 storage account with blob public acce
     ```bash
     az deployment group create --resource-group rg-04-02 --template-file 04_02/standard-storage.bicep --parameters resourceSuffix=0402 location=<location>
 
-    az deployment group show --resource-group rg-04-04 -n standard-storage --query properties.outputs.storageName.value
+    az deployment group show --resource-group rg-04-02 -n standard-storage --query properties.outputs.storageName.value
     ```
 
 
