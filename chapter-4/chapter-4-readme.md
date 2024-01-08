@@ -48,14 +48,14 @@ These commands create a general purpose V2 storage account with blob public acce
     ```bash
     az deployment group create --resource-group rg-04-02 --template-file 04_02/standard-storage.bicep --parameters resourceSuffix=0402 location=<location>
 
-    az deployment group show --resource-group rg-04-04 -n standard-storage --query properties.outputs.storageName.value
+    az deployment group show --resource-group rg-04-02 -n standard-storage --query properties.outputs.storageName.value
     ```
 
 
 3. Install azure-storage-blob to cloudshell
 
     ```pwsh
-    pip install azure-blob-storage
+    pip install azure-storage-blob
     ```
 
 4. Run the account_key python file
@@ -85,7 +85,7 @@ These commands create a general purpose V2 storage account with access key usage
     ```bash
     az deployment group create --resource-group rg-04-03 --template-file 04_03/standard-storage.bicep --parameters resourceSuffix=0403 location=<location>
 
-    az deployment group show --resource-group rg-04-04 -n standard-storage --query properties.outputs.storageName.value
+    az deployment group show --resource-group rg-04-03 -n standard-storage --query properties.outputs.storageName.value
     ```
 
 3. Create a service principal and client secret and grant Storage Blob Reader to it
@@ -93,11 +93,11 @@ These commands create a general purpose V2 storage account with access key usage
 4. Install azure-storage-blob to cloudshell
 
     ```bash
-    pip install azure-blob-storage
+    pip install azure-storage-blob
     pip install azure-identity
     ```
 
-4. Run the account_key python file
+4. Run the rbac list blobs file
 
 edit the file to update the account_url and shared_access_key
 
