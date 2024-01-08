@@ -97,7 +97,7 @@ These commands create a general purpose V2 storage account with access key usage
     pip install azure-identity
     ```
 
-4. Run the account_key python file
+4. Run the rbac list blobs file
 
 edit the file to update the account_url and shared_access_key
 
