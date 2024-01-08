@@ -85,7 +85,7 @@ These commands create a general purpose V2 storage account with access key usage
     ```bash
     az deployment group create --resource-group rg-04-03 --template-file 04_03/standard-storage.bicep --parameters resourceSuffix=0403 location=<location>
 
-    az deployment group show --resource-group rg-04-04 -n standard-storage --query properties.outputs.storageName.value
+    az deployment group show --resource-group rg-04-03 -n standard-storage --query properties.outputs.storageName.value
     ```
 
 3. Create a service principal and client secret and grant Storage Blob Reader to it
